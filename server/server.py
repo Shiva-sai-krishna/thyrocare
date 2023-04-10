@@ -28,8 +28,8 @@ def process_form():
     goitre = 1 if (data["goitre"] == 'Yes') else 0
     tumor = 1 if (data["tumor"] == 'Yes') else 0
     test = [[age, tsh, t3, tt4, t4u, fti, gender, sick, pregnant, thyroid_surgery, goitre, tumor]]
-    test = pca.transform(test)
-    res = model.predict(test)
+    test = pca.transform(test) #transforms the data into 5 dimensions, dimen redux, 
+    res = model.predict(test) #random forest, trees=100, # cross val acc = 98.736
     if res == 0: res = "componsated"
     elif res == 1: res = "negative"
     else: res = "primary"

@@ -6,7 +6,7 @@ enter the following commands in cmd
 ***
 git init
 git remote add origin https://github.com/Shiva-sai-krishna/thyrocare.git
-git pull origin main
+git pull origin master
 ***
 
 2) install the client dependencies :

@@ -20,17 +20,14 @@ const Learn = () => {
             <Accordion.Body>
             Hypothyroidism is a medical condition where the thyroid gland is underactive and does not produce enough thyroid hormones. These hormones are important for regulating metabolism, heart rate, body temperature, and other bodily functions.
 
-            <p>There are three types of hypothyroidism:</p>
+            <p>There are two types of hypothyroidism:</p>
             <ul>  
                 <li>  
-                    <p><b>Primary hypothyroidism:</b> This is the most common type, where the thyroid gland itself is damaged and unable to produce enough hormones.</p>  
+                    <p><b>Primary hypothyroidism:</b> Primary hypothyroidism is a condition in which the thyroid gland is not producing enough thyroid hormone due to damage or dysfunction of the gland itself. It is the most common type of hypothyroidism and is typically caused by autoimmune thyroid disease (Hashimoto's thyroiditis), iodine deficiency, congenital defects, or radiation therapy to the neck. Primary hypothyroidism is diagnosed by measuring levels of thyroid hormones (T4 and T3) and thyroid-stimulating hormone (TSH) in the blood. Symptoms may include fatigue, weight gain, cold intolerance, constipation, dry skin, hair loss, and depression. Treatment typically involves taking a synthetic thyroid hormone replacement medication, such as levothyroxine.</p>  
                 </li>  
                 <li>  
-                    <p><b>Secondary hypothyroidism:</b> This occurs when the thyroid gland is healthy, but the pituitary gland in the brain is not producing enough thyroid-stimulating hormone (TSH) to stimulate the thyroid gland.</p>  
-                </li>  
-                <li>  
-                    <p><b>Tertiary hypothyroidism:</b> This is the rarest form of hypothyroidism, where the hypothalamus in the brain is not producing enough thyrotropin-releasing hormone (TRH) to stimulate the pituitary gland, which in turn stimulates the thyroid gland to produce hormones.</p>  
-                </li>  
+                    <p><b>Compensated hypothyroidism:</b> Compensated hypothyroidism is a term used to describe a condition in which the thyroid gland is not functioning properly, but the body is able to compensate for this dysfunction by increasing levels of thyroid-stimulating hormone (TSH) to maintain normal levels of thyroid hormones in the bloodstream. This can occur in some individuals with hypothyroidism, where the thyroid gland is not producing enough thyroid hormones, but the pituitary gland is able to produce more TSH to stimulate the thyroid gland to produce more thyroid hormones. As a result, individuals with compensated hypothyroidism may have normal levels of thyroid hormones in their blood, despite having an underlying thyroid disorder. However, if left untreated, compensated hypothyroidism can progress to overt hypothyroidism, where thyroid hormone levels become low and symptoms can develop.</p>  
+                </li>   
             </ul> 
             </Accordion.Body>
         </Accordion.Item>
