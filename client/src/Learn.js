@@ -1,8 +1,8 @@
 import Accordion from 'react-bootstrap/Accordion';
-import { Link } from 'react-router-dom';
 
 const Learn = () => {
-    return (<div>
+    return (
+    <div>
         <div className="info">
             <div className="learn-heading">
                 <h2>Learn more about Hypothyroidism</h2>

@@ -6,9 +6,6 @@ const Home = () => {
 
     return (
     <div className="home">
-        {/* <div className="heading">
-            <h1>ThyroCare</h1>
-        </div> */}
         <div className="card-container">
         
             <Card className="card-learn">
@@ -31,7 +28,6 @@ const Home = () => {
                 <Card.Text>
                     Our application uses advanced machine learning models to accurately detect hypothyroidism, providing reliable results and empowering individuals to take control of their health.
                 </Card.Text>
-                
             </Card.Body>
                 <div className="card-test-button-container">
                     <Button variant="primary" onClick={()=>{navigate("/test")}}>Test Now</Button>

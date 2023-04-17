@@ -53,7 +53,6 @@ const Test = (props) => {
             ageIsInvalid = true;
             setAgeIsInvalid(true);
             setAgeIsValid(false);
-            
         }
     }
 
@@ -69,7 +68,7 @@ const Test = (props) => {
     }
 
     let checkT3 = (s) =>{
-        if ((/^\d+$/.test(s)||/^\d+\.\d+$/.test(s)) && t3 >= 0 && t3 < 1000) {
+        if ((/^\d+$/.test(s)||/^\d+\.\d+$/.test(s)) && t3 >= 0 && t3 < 100) {
             setT3IsInvalid(false);
             setT3IsValid(true);
         } else {
@@ -89,7 +88,7 @@ const Test = (props) => {
     }
 
     let checkT4u = (s) =>{
-        if ((/^\d+$/.test(s)||/^\d+\.\d+$/.test(s)) && t4u >= 0 && t4u < 1000) {
+        if ((/^\d+$/.test(s)||/^\d+\.\d+$/.test(s)) && t4u >= 0 && t4u < 100) {
             setT4uIsInvalid(false);
             setT4uIsValid(true);
         } else {
@@ -295,7 +294,6 @@ const Test = (props) => {
                 <Form.Control.Feedback type="invalid">
                     Please Enter valid Age.
                 </Form.Control.Feedback>
-                
                 </Form.Group>
 
                 <Form.Group as={Col} controlId="tsh">
@@ -309,7 +307,7 @@ const Test = (props) => {
 
             <Row className="mb-3 form-row">
                 <Form.Group as={Col} controlId="t3">
-                <Form.Label><div className="popup-holder"><p>Triiodothyronine (T3) Level</p><Popup info="Normal range for T3 level in adults is usually between 100 - 200 ng/dL"/></div></Form.Label>
+                <Form.Label><div className="popup-holder"><p>Triiodothyronine (T3) Level</p><Popup info="Normal range for T3 level in adults is usually between 1.25 - 2.75 ng/dL"/></div></Form.Label>
                 <Form.Control required placeholder="Enter your T3 Level in (ng/dL)" onChange={handleT3Change} isInvalid={t3IsInvalid} isValid={t3IsValid}/>
                 <Form.Control.Feedback type="invalid">
                     Please Enter valid T3 value 
@@ -317,7 +315,7 @@ const Test = (props) => {
                 </Form.Group>
 
                 <Form.Group as={Col} controlId="tt4">
-                <Form.Label><div className="popup-holder"><p>Total Thyroxine (TT4) Level</p><Popup info="Normal range for total T4 level in adults ranges from 4.6 - 12 μg/dL"/></div></Form.Label>
+                <Form.Label><div className="popup-holder"><p>Total Thyroxine (TT4) Level</p><Popup info="Normal range for total T4 level in adults ranges from 70 - 180 μg/dL"/></div></Form.Label>
                 <Form.Control required placeholder="Enter your TT4 Level in (μg/dL)"  onChange={handleTt4Change} isInvalid={tt4IsInvalid} isValid={tt4IsValid}/>
                 <Form.Control.Feedback type="invalid">
                     Please Enter valid TT4 value.
@@ -327,7 +325,7 @@ const Test = (props) => {
 
             <Row className="mb-3 form-row">
                 <Form.Group as={Col} controlId="t4u">
-                <Form.Label>Thyroxine Uptake (T4U) Level</Form.Label>
+                <Form.Label><div className="popup-holder"><p>Thyroxine Uptake (T4U) Level</p><Popup info="Normal range for Thyroxine Uptake in adults ranges from  0.5 - 1.5 ng/dL"/></div></Form.Label>
                 <Form.Control required placeholder="Enter your T4 uptake Level" onChange={handleT4uChange} isInvalid={t4uIsInvalid} isValid={t4uIsValid}/>
                 <Form.Control.Feedback type="invalid">
                     Please Enter valid T4U value.
@@ -336,8 +334,7 @@ const Test = (props) => {
                 </Form.Group>
 
                 <Form.Group as={Col} controlId="fti">
-                <Form.Label>Free Thyroxine Index (FTI) Level</Form.Label>
-                <Form.Label><div className="popup-holder"><p>Free Thyroxine Index (FTI) Level</p><Popup info="Normal range for Free thyroxine index in adults ranges from  0.7 - 1.9 ng/dL"/></div></Form.Label>
+                <Form.Label><div className="popup-holder"><p>Free Thyroxine Index (FTI) Level</p><Popup info="Normal range for Free thyroxine index in adults ranges from  70 - 190 ng/dL"/></div></Form.Label>
                 <Form.Control required placeholder="Enter your FTI Level in (ng/dL)"  onChange={handleFtiChange} isInvalid={ftiIsInvalid} isValid={ftiIsValid}/>
                 <Form.Control.Feedback type="invalid">
                     Please Enter valid FTI value.

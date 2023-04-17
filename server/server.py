@@ -1,10 +1,9 @@
 import pickle
-import numpy as np
-from sklearn.decomposition import PCA
 import warnings
-from flask import Flask, render_template, request, url_for
+from flask import Flask, request
 from flask import jsonify
 from flask_cors import CORS
+
 app = Flask(__name__)
 CORS(app)
 

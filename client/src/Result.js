@@ -21,7 +21,7 @@ const Result = (props) => {
     } else {
         content = "Compensated hypothyroidism, also known as subclinical hypothyroidism, is a mild form of thyroid hormone deficiency in which the thyroid gland is still producing some hormones but not enough to meet the body's needs. Individuals with compensated hypothyroidism often do not experience any symptoms but may have slightly elevated levels of thyroid-stimulating hormone (TSH) and normal levels of thyroid hormones such as T3 and T4."
         oneline = "You are tested Positive for Compensated Hypothyroidism";
-        imageurl = "/images/problem.jpg"
+        imageurl = "/images/compensated.avif"
     }    
 
     return (
